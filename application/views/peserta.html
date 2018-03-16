@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' gap:; style-src 'self' 'unsafe-inline'; media-src *" />
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+	
+	<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/fontawesome-free-5.0.6/on-server/css/fontawesome.min.css">
+	
+    <title>Hydrococo Cup</title>
+</head>
+
+<body class="app sidebar-mini">
+    <!-- Navbar-->
+    <header class="app-header"><a class="app-header__logo" href=""><img src="img/logo.png"></a>
+      <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar"></a>
+      <!-- Navbar Right Menu-->
+      <ul class="app-nav">
+        <!-- User Menu-->
+        <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown"><i class="fa fa-user-circle fa-lg"></i></a>
+          <ul class="dropdown-menu settings-menu dropdown-menu-right">
+            <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-cog fa-lg"></i> Settings</a></li>
+            <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-user-circle fa-lg"></i> Profile</a></li>
+            <li><a class="dropdown-item" href="page-login.html"><i class="fa fa-sign-out fa-lg"></i> Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
+	
+	<!-- Sidebar menu-->
+    <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+    <aside class="app-sidebar">
+      <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="img/foto_50.png" alt="User Image">
+        <div>
+          <p class="app-sidebar__user-name">Nida Nurul Awaliah</p>
+          <p class="app-sidebar__user-designation">Panitia</p>
+        </div>
+      </div>
+      <ul class="app-menu">
+        <li><a class="app-menu__item" href="index.html"><i class="app-menu__icon fa fa-home"></i><span class="app-menu__label">Home</span></a></li>
+		<li><a class="app-menu__item active" href="peserta.html"><i class="app-menu__icon fa fa-user"></i><span class="app-menu__label">Peserta</span></a></li>
+      </ul>
+    </aside>
+	
+	<main class="app-content">
+      <div class="app-title">
+        <div>
+          <h1><i class="fa fa-user"></i> Peserta</h1>
+        </div>
+        <ul class="app-breadcrumb breadcrumb">
+          <li class="breadcrumb-item"><i class="fa fa-home"></i></li>
+          <li class="breadcrumb-item"><a href="#">Peserta</a></li>
+        </ul>
+      </div>
+	  
+	  <div class="row">
+		<div class="col-md-12">
+		  <div class="tile">
+			<div class="tile-title-w-btn">
+              <h3 class="title">Daftar Peserta</h3>
+              <p><a class="btn btn-primary icon-btn" href=""><i class="fa fa-plus"></i>Tambah Peserta</a></p>
+            </div>
+			<hr>
+			<div class="row">
+				<div class="col-md-12">
+				<div class="col-md-12">
+				  <div class="tile">
+					<div class="tile-body table-responsive">
+					  <table class="table table-hover table-bordered" id="sampleTable">
+						<thead>
+						  <tr>
+							<th>Lihat Detail</th>
+							<th>Nama Tim</th>
+							<th>Kota</th>
+							<th>Asal Sekolah</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td><button class="btn btn-primary" type="button">Detail</button></td>
+							<td>Tiger Nixon</td>
+							<td>System Architect</td>
+							<td>Edinburgh</td>
+						  </tr>
+						  <tr>
+							<td>Garrett Winters</td>
+							<td>Accountant</td>
+							<td>Tokyo</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Ashton Cox</td>
+							<td>Junior Technical Author</td>
+							<td>San Francisco</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Cedric Kelly</td>
+							<td>Senior Javascript Developer</td>
+							<td>Edinburgh</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Airi Satou</td>
+							<td>Accountant</td>
+							<td>Tokyo</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Brielle Williamson</td>
+							<td>Integration Specialist</td>
+							<td>New York</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Herrod Chandler</td>
+							<td>Sales Assistant</td>
+							<td>San Francisco</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Rhona Davidson</td>
+							<td>Integration Specialist</td>
+							<td>Tokyo</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Colleen Hurst</td>
+							<td>Javascript Developer</td>
+							<td>San Francisco</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Sonya Frost</td>
+							<td>Software Engineer</td>
+							<td>Edinburgh</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Jena Gaines</td>
+							<td>Office Manager</td>
+							<td>London</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Quinn Flynn</td>
+							<td>Support Lead</td>
+							<td>Edinburgh</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Charde Marshall</td>
+							<td>Regional Director</td>
+							<td>San Francisco</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Haley Kennedy</td>
+							<td>Senior Marketing Designer</td>
+							<td>London</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Tatyana Fitzpatrick</td>
+							<td>Regional Director</td>
+							<td>London</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Michael Silva</td>
+							<td>Marketing Designer</td>
+							<td>London</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Paul Byrd</td>
+							<td>Chief Financial Officer (CFO)</td>
+							<td>New York</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Gloria Little</td>
+							<td>Systems Administrator</td>
+							<td>New York</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Bradley Greer</td>
+							<td>Software Engineer</td>
+							<td>London</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Dai Rios</td>
+							<td>Personnel Lead</td>
+							<td>Edinburgh</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Jenette Caldwell</td>
+							<td>Development Lead</td>
+							<td>New York</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Yuri Berry</td>
+							<td>Chief Marketing Officer (CMO)</td>
+							<td>New York</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Caesar Vance</td>
+							<td>Pre-Sales Support</td>
+							<td>New York</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Doris Wilder</td>
+							<td>Sales Assistant</td>
+							<td>Sidney</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Angelica Ramos</td>
+							<td>Chief Executive Officer (CEO)</td>
+							<td>London</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Gavin Joyce</td>
+							<td>Developer</td>
+							<td>Edinburgh</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Jennifer Chang</td>
+							<td>Regional Director</td>
+							<td>Singapore</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Brenden Wagner</td>
+							<td>Software Engineer</td>
+							<td>San Francisco</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Fiona Green</td>
+							<td>Chief Operating Officer (COO)</td>
+							<td>San Francisco</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Shou Itou</td>
+							<td>Regional Marketing</td>
+							<td>Tokyo</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Michelle House</td>
+							<td>Integration Specialist</td>
+							<td>Sidney</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Suki Burks</td>
+							<td>Developer</td>
+							<td>London</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Prescott Bartlett</td>
+							<td>Technical Author</td>
+							<td>London</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Gavin Cortez</td>
+							<td>Team Leader</td>
+							<td>San Francisco</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Martena Mccray</td>
+							<td>Post-Sales support</td>
+							<td>Edinburgh</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Unity Butler</td>
+							<td>Marketing Designer</td>
+							<td>San Francisco</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Howard Hatfield</td>
+							<td>Office Manager</td>
+							<td>San Francisco</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Hope Fuentes</td>
+							<td>Secretary</td>
+							<td>San Francisco</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Vivian Harrell</td>
+							<td>Financial Controller</td>
+							<td>San Francisco</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Timothy Mooney</td>
+							<td>Office Manager</td>
+							<td>London</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Jackson Bradshaw</td>
+							<td>Director</td>
+							<td>New York</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Olivia Liang</td>
+							<td>Support Engineer</td>
+							<td>Singapore</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Bruno Nash</td>
+							<td>Software Engineer</td>
+							<td>London</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Sakura Yamamoto</td>
+							<td>Support Engineer</td>
+							<td>Tokyo</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Thor Walton</td>
+							<td>Developer</td>
+							<td>New York</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Finn Camacho</td>
+							<td>Support Engineer</td>
+							<td>San Francisco</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Serge Baldwin</td>
+							<td>Data Coordinator</td>
+							<td>Singapore</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Zenaida Frank</td>
+							<td>Software Engineer</td>
+							<td>New York</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Zorita Serrano</td>
+							<td>Software Engineer</td>
+							<td>San Francisco</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Jennifer Acosta</td>
+							<td>Junior Javascript Developer</td>
+							<td>Edinburgh</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Cara Stevens</td>
+							<td>Sales Assistant</td>
+							<td>New York</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Hermione Butler</td>
+							<td>Regional Director</td>
+							<td>London</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Lael Greer</td>
+							<td>Systems Administrator</td>
+							<td>London</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Jonas Alexander</td>
+							<td>Developer</td>
+							<td>San Francisco</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Shad Decker</td>
+							<td>Regional Director</td>
+							<td>Edinburgh</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Michael Bruce</td>
+							<td>Javascript Developer</td>
+							<td>Singapore</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						  <tr>
+							<td>Donna Snider</td>
+							<td>Customer Support</td>
+							<td>New York</td>
+							<td><button class="btn btn-primary" type="button">Lihat Pemain</button></td>
+						  </tr>
+						</tbody>
+					  </table>
+					</div>
+				  </div>
+				</div>
+      </div>
+		  </div>
+		</div>
+	  </div>
+	  
+    </main>
+	
+	<!-- Essential javascripts for application to work-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- The javascript plugin to display page loading on top-->
+    <script src="js/plugins/pace.min.js"></script>
+	<!-- Data table plugin-->
+    <script type="text/javascript" src="js/plugins/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="js/plugins/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript">$('#sampleTable').DataTable();</script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+
+</html>
